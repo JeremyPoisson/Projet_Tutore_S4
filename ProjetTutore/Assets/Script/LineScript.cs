@@ -12,7 +12,7 @@ public class LineScript : MonoBehaviour
         y1 = GetComponent<LineRenderer>().GetPosition(0).y;
         x2 = GetComponent<LineRenderer>().GetPosition(1).x;
         x2 = GetComponent<LineRenderer>().GetPosition(1).y;
-        GetComponent<LineRenderer>().useWorldSpace = false;
+        GetComponent<LineRenderer>().useWorldSpace = true;
         GetComponent<LineRenderer>().alignment = LineAlignment.TransformZ;
         GetComponent<LineRenderer>().sortingOrder = 1;
          
